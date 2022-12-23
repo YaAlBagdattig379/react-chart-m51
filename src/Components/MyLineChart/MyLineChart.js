@@ -48,7 +48,7 @@ const data = [
     },
   ];
     return (
-        <LineChart width={800} height={500} data={data}>
+        <LineChart width={800} height={600} data={data}>
               <Line dataKey="price"stroke="gold"></Line>
               <Line dataKey="sales"stroke="purple"></Line>
               <CartesianGrid stroke="#ccc" strokeDasharray="5 5" />
